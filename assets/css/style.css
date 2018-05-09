@@ -1,20 +1,32 @@
-p, a {
+
+p, a, label, textarea, input {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 0.9em;
+}
+p{
+    line-height: 30px;
 }
 h1 h2 h3 h4 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.8;
+}
 /* FONT */
 h1 {
     color: #4aaaa5;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
 }
 h2.nav-title {
     padding: 0;
     margin: 0;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
 }
 
@@ -26,7 +38,7 @@ header {
     border-bottom: 1.5px solid lightgray;
 }
 nav {
-    width: 80%;
+    width: 90%;
     max-width: 960px;
     margin: 0 auto;
 }
@@ -37,7 +49,7 @@ nav {
 }
 #nav-links {
     float: right;
-    padding: 20px;
+    padding: 20px 0 20px 20px;
 }
 #nav-links ul {
     padding: 0;
@@ -45,6 +57,7 @@ nav {
 }
 #nav-links ul li {
     display: inline;
+    padding: 0 10px 0 10px;
 }
 
 
@@ -58,19 +71,60 @@ body {
     padding: 40px 20px 40px 20px;
 }
 #content {
-    width: 80%;
+    width: 90%;
     max-width: 960px;
-    padding: 20px;
     background: white;
     margin: 0 auto;
     display: table;
     border: 0.25px solid lightgray;
 }
+.content-wrapper {
+    width: 94%;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+#content img {
+    float: left;
+    padding: 0 20px 0 0;
+}
 
 hr.content-hr {
     width: 100%;
-    height: 1px;
+    height: 3px;
     background: lightgray;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+
+/* CONACT PAGE */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.contact-container {
+    border-radius: 5px;
 }
 
 /* FOOTER */
@@ -85,9 +139,11 @@ footer {
     height: 50px;
     padding: 0;
     margin: 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
+}
+p.copyright {
+    color: lightgrey;
+    font-size: 0.7em;
+    margin-top: 5px;
 }
