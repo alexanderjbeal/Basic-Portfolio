@@ -96,6 +96,84 @@ hr.content-hr {
     margin: 20px 0 20px 0;
 }
 
+/* PORTFOLIO PAGE */
+
+.portfolio-container {
+    display: table;
+    width: 100%;
+}
+
+div.portfolio-container div {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+div.portfolio-img-ants {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://alexanderjbeal.github.io/Basic-Portfolio/assets/images/ants.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+div.portfolio-img-baseball {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://alexanderjbeal.github.io/Basic-Portfolio/assets/images/baseball.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+div.portfolio-img-burger {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://alexanderjbeal.github.io/Basic-Portfolio/assets/images/burger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+div.portfolio-img-city {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://alexanderjbeal.github.io/Basic-Portfolio/assets/images/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+div.portfolio-img-colors {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://alexanderjbeal.github.io/Basic-Portfolio/assets/images/colors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+div.portfolio-img-surf {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://alexanderjbeal.github.io/Basic-Portfolio/assets/images/surf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.caption {
+    display: block;
+    width:calc(100% - 40px);
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
 /* CONACT PAGE */
 
 input[type=text], select, textarea {
